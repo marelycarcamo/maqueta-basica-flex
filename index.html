@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maqueta_flex</title>
+
+    
+
+    <style>
+/* Extra small devices (phones, 600px and down) */
+
+              
+        .maqueta{
+            text-align: center;
+        
+        }
+        
+        header{
+            background-color: teal;
+            height: 200px;
+        }
+
+        .centro{
+            display: flex;
+            height: 800px;
+            flex-flow: row;
+        }
+
+        nav, article, aside{
+        
+            flex-grow: 1;
+        }
+
+        article{
+           min-width: 60%;
+           background-color: linen;
+        }
+
+        nav, aside{
+            background-color: rgba(190, 223, 219, 0.842);
+        }
+
+        footer{
+            background-color: teal;
+            height: 120px;
+        }
+        
+        nav{
+            order:1;
+        }
+        
+        article{
+            order: 2;
+        }
+        
+        aside{
+            order: 3;
+        }
+
+      
+        @media all  and (max-width: 600px){
+     nav, aside, header, footer{
+      max-height: 50px;
+      padding: 20px;
+      
+    }
+
+
+    div .centro{        
+        flex-direction: column;        
+    }
+    nav{
+            order:2;
+        }
+        article{
+            order: 1;
+        }
+        
+        aside{
+            order: 3;
+        }
+
+    }
+        
+    </style>
+
+</head>
+
+<!--    H T M L    -->
+
+<body>
+
+    <div class="maqueta">
+    <header>*** HEADER ***</header>
+
+    <div class="centro">
+        <article>*** ARTICLE ***</article>
+        <nav>*** NAV ***</nav>       
+        <aside>*** ASIDE ***</aside>
+
+    </div>
+   
+    <footer>*** FOOTER ***</footer>
+</div>
+    
+</body>
+</html>
