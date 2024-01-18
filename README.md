@@ -8,6 +8,6 @@
 
 <p align="justify">El programa también incluye una regla de consulta de medios (@media) que cambia el diseño de la página cuando el ancho de la ventana del navegador es de 600px o menos. En este caso, las secciones de la página se organizan en una columna en lugar de una fila, y el orden de las secciones cambia.</p>
 
-# Cómo visualizar la maqueta
+## Cómo visualizar la maqueta
 <p align="justify">Para visualizar la maqueta, puedes abrir el archivo HTML en un navegador web. Asegúrate de tener los archivos CSS en el mismo directorio que el archivo HTML para que se apliquen correctamente los estilos.</p>
 https://marelycarcamo.github.io/maqueta-basica-flex/
